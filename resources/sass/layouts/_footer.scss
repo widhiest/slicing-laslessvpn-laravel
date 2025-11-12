@@ -1,38 +1,35 @@
 
 .main-footer {
-    background-color: #F8F8F8; // Warna background footer
-    padding: 7.5rem 0 3rem; // Padding atas dan bawah
+    background-color: #F8F8F8; 
+    padding: 7.5rem 0 3rem; 
 
     .footer-wrapper {
         display: flex;
         justify-content: space-between;
         margin-top: 4rem;
-        // Hapus margin-top: 4rem; agar tidak mengganggu section di atasnya
     }
 
-    // --- KOLOM 1: INFO ---
     .col-info {
         max-width: 340px;
         
         .footer-logo {
-            // [KOREKSI LOGO] Jadikan flex untuk mensejajarkan ikon dan teks
             display: flex;
             align-items: center;
             text-decoration: none; 
-            margin-bottom: 1.5rem; // Jarak bawah setelah logo
+            margin-bottom: 1.5rem; 
             
             img {
-                width: 35px; // Ukuran ikon logo yang sesuai
-                margin-right: 0.6rem; // Jarak antara ikon dan teks
+                width: 35px; 
+                margin-right: 0.6rem;
             }
 
             span {
                 font-size: 1.25rem; 
                 font-weight: 500;
-                color: $color-heading; // Lasles (Hitam/Dark)
+                color: $color-heading;
             }
             .vpn {
-                font-weight: 700; // VPN (Merah)
+                font-weight: 700; 
             }
         }
 
@@ -73,10 +70,9 @@
         }
     }
 
-    // --- KOLOM 2-4: LINKS ---
     .col-links {
         display: flex;
-        gap: 4rem; // Jarak antar kolom link (dikurangi dari 6.25rem)
+        gap: 4rem; 
         
         .footer-column {
             h4 {

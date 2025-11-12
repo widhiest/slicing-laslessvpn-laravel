@@ -21,7 +21,6 @@
     @include('layouts.header')
 
     <main id="main-content">
-        {{-- Tempat konten unik setiap halaman di-inject --}}
         @yield('content')
     </main>
 

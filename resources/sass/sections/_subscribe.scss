@@ -1,9 +1,6 @@
-// resources/sass/sections/_subscribe.scss
-
 .subscribe-section {
-    // Section ini hanya berfungsi sebagai container dan spasi
     padding: 0; 
-    height: 0; // Tentukan tinggi ruang melayang (sesuaikan jika perlu)
+    height: 0; 
     position: relative; 
     z-index: 1; 
     
@@ -13,24 +10,20 @@
     }
     
     .subscribe-card {
-        // [POSISI KUNCI] Posisikan card secara absolut dan centering vertikal
         position: absolute; 
         top: 50%; 
         transform: translateY(-50%); 
         
-        // Centering horizontal
         left: 0;
         right: 0; 
         margin-left: auto;
         margin-right: auto;
         
-        // [TAMPILAN]
         box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         background: $color-white; 
         z-index: 10; 
         
-        // [LAYOUT]
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -55,12 +48,10 @@
         }
         
         .right-content {
-            // Memastikan tombol diletakkan di tengah vertikal
             display: flex;
             align-items: center;
 
             .button-primary {
-                // Gunakan gaya tombol primary yang sudah ada
                 padding: 1.3rem 4rem; 
                 border-radius: 10px;
             }

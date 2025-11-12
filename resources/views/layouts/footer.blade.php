@@ -1,16 +1,11 @@
-{{-- resources/views/layouts/footer.blade.php --}}
-
 <footer class="main-footer">
     <div class="container">
         <div class="footer-wrapper">
             
-            {{-- KOLOM 1: Brand Info --}}
             <div class="col-info">
                 
                 <a href="/" class="footer-logo">
-                    {{-- Gambar ikon logo --}}
                     <img src="{{ asset('assets/images/logo.svg') }}" alt="LaslesVPN Icon">
-                    {{-- Teks Brand Info --}}
                     <span>Lasles<span class="vpn">VPN</span></span> 
                 </a>
                 
@@ -29,10 +24,8 @@
                 </p>
             </div>
 
-            {{-- KOLOM 2-4: Link Pages --}}
             <div class="col-links">
                 
-                {{-- Kolom 2: Product --}}
                 <div class="footer-column">
                     <h4>Product</h4>
                     <ul>
@@ -45,7 +38,6 @@
                     </ul>
                 </div>
                 
-                {{-- Kolom 3: Engage --}}
                 <div class="footer-column">
                     <h4>Engage</h4>
                     <ul>
@@ -58,7 +50,6 @@
                     </ul>
                 </div>
                 
-                {{-- Kolom 4: Earn Money --}}
                 <div class="footer-column">
                     <h4>Earn Money</h4>
                     <ul>

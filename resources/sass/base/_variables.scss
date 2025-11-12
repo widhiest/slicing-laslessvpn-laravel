@@ -1,18 +1,15 @@
-// Warna
 $color-primary: #F53838;
 $color-primary-light: #FFECEC;
 $color-secondary: #AFB5C0;    
-$color-heading: #0B132A;    // Warna untuk judul utama (H1)
-$color-text: #4F5665;       // Warna untuk teks paragraf/deskripsi
-$color-light: #F6F6F6;      // Warna background terang (jika ada section)
+$color-heading: #0B132A;    
+$color-text: #4F5665;       
+$color-light: #F6F6F6;      
 $color-white: #FFFFFF;
 $color-stats-divider: #EEEFF2;
 
-// Font Family (LaslesVPN menggunakan font Rubik)
 $font-family-base: 'Rubik', sans-serif; 
 $font-size-logo: 20px;
 
-// Spacing (Mari kita pakai nilai yang lebih nyata untuk desain ini)
 $spacing-xs: 0.25rem;   // 4px
 $spacing-sm: 0.5rem;    // 8px
 $spacing-md: 1rem;      // 16px
