@@ -1,0 +1,29 @@
+// Gaya Dasar (Button Primary - Solid Red)
+.button-primary {
+    // Properti dasar yang dimiliki semua tombol
+    display: inline-block;
+    padding: 18px 50px; // Padding besar khas LaslesVPN
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    // Default: Tombol Merah Solid (digunakan di Hero Section)
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    
+    // Bayangan khas tombol LaslesVPN
+    box-shadow: 0 10px 30px rgba($color-primary, 0.4); 
+
+    &:hover {
+        // Efek hover untuk tombol solid
+        background-color: darken($color-primary, 5%);
+    }
+}
+
+// Gaya Pengubah/Modifier (Button Sign Up - Outline)

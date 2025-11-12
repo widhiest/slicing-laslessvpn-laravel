@@ -1,0 +1,22 @@
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+//BASE
+@import 'base/variables';
+@import 'base/base';
+
+//COMPONENTS
+@import 'components/buttons';
+
+//LAYOUTS
+@import 'layouts/header';
+@import 'layouts/footer';
+
+//SECTIONS
+@import 'sections/hero';
+@import 'sections/stats';
+@import 'sections/features';
+@import 'sections/plan';
+@import 'sections/map';
+@import 'sections/testimonials';
+@import 'sections/subscribe';

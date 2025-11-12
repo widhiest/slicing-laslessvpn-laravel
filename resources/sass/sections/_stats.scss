@@ -1,0 +1,41 @@
+.stats-section{
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: center;
+    color: $color-heading;
+    font-size: 25px;
+    line-height: 30px;
+
+    .container{
+        display: flex;
+        align-items: center;
+        gap: $spacing-xxl;
+        // border: 1px solid blue;
+        border-radius: 10px;
+        max-width: 1140px;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+
+        .stats-item{
+            display: flex;
+            align-items: center;
+
+            .icon-wrap{
+                margin-right: 2.25rem;
+            }
+            
+            .stats-content{
+                .stats-number{
+                    margin-bottom: -1.2rem;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .stats-divider{
+            width: 1px;
+            height: 125px;
+            background-color: $color-stats-divider;
+        }
+    }
+}
+

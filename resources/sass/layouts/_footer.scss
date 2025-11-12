@@ -1,0 +1,111 @@
+
+.main-footer {
+    background-color: #F8F8F8; // Warna background footer
+    padding: 7.5rem 0 3rem; // Padding atas dan bawah
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+        // Hapus margin-top: 4rem; agar tidak mengganggu section di atasnya
+    }
+
+    // --- KOLOM 1: INFO ---
+    .col-info {
+        max-width: 340px;
+        
+        .footer-logo {
+            // [KOREKSI LOGO] Jadikan flex untuk mensejajarkan ikon dan teks
+            display: flex;
+            align-items: center;
+            text-decoration: none; 
+            margin-bottom: 1.5rem; // Jarak bawah setelah logo
+            
+            img {
+                width: 35px; // Ukuran ikon logo yang sesuai
+                margin-right: 0.6rem; // Jarak antara ikon dan teks
+            }
+
+            span {
+                font-size: 1.25rem; 
+                font-weight: 500;
+                color: $color-heading; // Lasles (Hitam/Dark)
+            }
+            .vpn {
+                font-weight: 700; // VPN (Merah)
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            color: $color-text;
+            line-height: 1.8;
+            margin-bottom: 1.875rem;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1.25rem;
+            margin-bottom: 1.875rem;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 35px;
+                height: 35px;
+                background-color: $color-primary-light;
+                color: $color-primary;
+                border-radius: 50%;
+                font-size: 0.9rem;
+                transition: background-color 0.3s;
+                
+                &:hover {
+                    background-color: $color-primary;
+                    color: $color-white;
+                }
+            }
+        }
+        
+        .copyright {
+            color: $color-secondary;
+            font-size: 1rem;
+        }
+    }
+
+    // --- KOLOM 2-4: LINKS ---
+    .col-links {
+        display: flex;
+        gap: 4rem; // Jarak antar kolom link (dikurangi dari 6.25rem)
+        
+        .footer-column {
+            h4 {
+                font-size: 1.125rem;
+                font-weight: 500;
+                color: $color-heading;
+                margin-bottom: 1.875rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                
+                li {
+                    margin-bottom: 1rem;
+                }
+                
+                a {
+                    font-size: 1rem;
+                    color: $color-text;
+                    text-decoration: none;
+                    transition: color 0.3s;
+                    
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}

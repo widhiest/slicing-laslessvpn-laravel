@@ -1,0 +1,50 @@
+.map-section{
+    display: flex;
+    padding: 7rem 0;
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        h2{
+            max-width: 23rem;
+            margin: 0 auto 1.25rem;
+        }
+
+        p{
+            max-width: 35rem;
+            margin: 0 auto rem;
+            margin-bottom: 9.5rem;
+        }
+
+        .map-iamge{
+            margin-bottom: 2rem;
+        }
+
+        .footer{
+            display: flex;
+            align-items: center;
+            
+            // Ganti space-around menjadi center untuk memusatkan barisan logo
+            justify-content: center; 
+            
+            // Penting: Batasi lebar footer agar logo-logo berdekatan
+            max-width: 1140px; 
+            width: 100%; 
+            
+            // Tambahkan margin auto untuk memusatkan blok footer itu sendiri
+            margin: 0 auto; 
+
+            img{
+                margin-right: 3.75rem;
+
+                .khusus{
+                    margin-right: 1.25rem;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,57 @@
+// resources/sass/base/_base.scss
+
+// 1. GLOBAL RESET
+*,
+*::before,
+*::after {
+    box-sizing: border-box; // Penting untuk layout
+}
+
+// 2. DASAR TIPOGRAFI
+body {
+    font-family: $font-family-base; // Ambil dari _variables.scss
+    font-size: 1rem; // Default 16px
+    line-height: 30px;
+    color: $color-text;
+    background-color: $color-white;
+    min-height: 100vh;
+}
+
+// H1 Heading (Contoh dari LaslesVPN Figma)
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 70px;
+    color: $color-heading;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 50px;
+    color: $color-heading;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $color-heading;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: $color-heading;
+}
+
+// 3. ELEMEN GLOBAL
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem; // Padding horizontal default
+}
